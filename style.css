@@ -1,0 +1,240 @@
+body {
+  overflow-x: hidden;
+  background: whitesmoke;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+:root{
+  --gradient: linear-gradient(to right, #007991, cadetblue, whitesmoke);  
+}
+
+
+#container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+    background: var(--gradient);
+    padding: 10px;
+    padding-top: 4.3rem;
+}
+
+.main-logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.main-logo h1{
+    font-size: 4rem;
+    margin: auto;
+    letter-spacing: .7rem;
+    color: cadetblue;
+    text-shadow: 2px 2px 10px #333;
+    font-weight: 900;
+    
+    
+}
+.main-logo h1 span{
+    color: white;
+}
+
+.main-logo p{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: white;
+    text-shadow: 2px 2px 6px #333;
+    margin: auto;
+    margin-left: 3rem;
+}
+
+.nav-bar{
+    border-bottom: .5px solid cadetblue;
+    background: var(--gradient);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-bar li{
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 6px #333;
+    transition: all .5s ease;
+}
+
+.nav-bar li:hover{
+    color: cadetblue;
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+[class*="s-"]{
+    text-align: center;
+    color: #444;
+}
+
+.s-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.s-about p{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 2rem;
+}
+
+[class*="fa-"]{
+    color: #ccc;
+    font-size: 6rem;
+}
+
+.s-faq{
+    border-top: 1px solid cadetblue;
+}
+
+.comments{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+.comment-box{
+    width: 28%;
+    background: cadetblue;
+    box-shadow: 2px 2px 10px #333;
+    color: white;
+    padding: 1rem;
+    font-style: italic;
+    transition: all .5s ease;
+    
+}
+
+.comment-box:hover{
+    transform: scale(1.1);
+}
+
+.comment-box img{
+    border: 2px solid white;
+}
+
+.main-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-cont p{
+    text-align: justify;
+    display: block;
+    padding: 1rem;
+    
+}
+
+[class*="text-"]{
+    margin-top: 3rem;
+    
+}
+
+.s-nl{
+    background: var(--gradient);
+    padding: 12rem;
+    color: white;
+    letter-spacing: .6rem;
+    font-size: 2rem;
+}
+
+.s-nl p{
+    letter-spacing: .2rem;
+    font-size: 1rem;
+}
+    
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    padding: 1rem;
+    width: 50vh;
+    height: 3vh;
+    border: 4px solid cadetblue;
+}
+
+.submit{
+    margin: 1rem;
+    padding: .7rem;
+}
+
+.submit{
+    cursor: pointer;
+}
+
+
+
+.s-download {
+    height: auto;   
+    
+}
+
+.s-download h2{
+    letter-spacing: .2rem;
+    padding-top: .5rem;
+    font-size: 3rem;
+}
+
+.main-download{
+    display: flex;
+    justify-content: center;
+}
+
+.gplay{
+    margin-top: 20%;
+}
+
+footer{
+    text-align: center;
+    background: cadetblue;
+    color: white;
+    padding: .5rem;
+}
+
+
+
+    
+    
+   
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+
+
